@@ -1,0 +1,110 @@
+body {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #fbebf4;
+  align-content: center;
+  font-family: "Raleway", sans-serif;
+}
+
+header {
+  border-bottom-style: 10px solid #d9becd;
+  padding: 10px;
+  background-color: #ba789b;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 4em;
+  margin: 10px;
+  font-family: "Zen Antique", serif;
+  text-align: left;
+  text-shadow: 4px 0px 4px #754d62;
+  display: flex;
+}
+
+.lara {
+  font-size: 2em;
+  margin: 0%;
+  font-family: "Zen Antique", serif;
+}
+
+nav a {
+  font-family: "Zen Antique", serif;
+  align-items: center;
+  text-decoration: none;
+  padding: 20px;
+}
+nav a:hover {
+  color: black;
+}
+
+.redes {
+  max-width: 700px;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
+  border: 10px;
+}
+.redes a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background-color: #d9becd;
+  color: #503543;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px;
+}
+
+h2 {
+  font-size: 2.5em;
+  margin: 0%;
+  text-align: center;
+  color: #503543;
+  text-shadow: 1px 1px 4px #3e2934;
+}
+
+p {
+  padding-inline: 10px;
+  padding: 20px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin: 10px;
+  box-shadow: 0px 0px 19px 0px #d9becd;
+}
+
+.imagenes {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  max-width: 1400px;
+  margin: auto;
+  box-shadow: 0px 0px 2px #3e2934;
+}
+.container:hover {
+  background-color: #d9becd;
+  font-size: 1.2em;
+  align-content: center;
+}
+footer {
+  background-color: #d9becd;
+  text-align: center;
+  color: whitesmoke;
+  padding: 0% 10px;
+}
+nav.botoness {
+  line-height: 60px;
+  background-color: #d9becd;
+  font-family: "Zen Antique", serif;
+}
